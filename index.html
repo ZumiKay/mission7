@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission7</title>
+    <style>
+        form input{
+            padding: 10px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Information</h1>
+    <form action="mission7form.php" method="post" enctype="multipart/form-data">
+        <input type="text" placeholder="Fullname" name="fullname" id="fullname">
+        <input type="text" placeholder="Gender" name="gender" id="gender">
+       
+        <br>
+        <label for="profile">Upload your profile</label>
+        <input type="file" accept="image/png, image/jpeg" name="profile" >
+        <input type="submit" value="submit">
+
+    </form>
+    
+</body>
+</html>
